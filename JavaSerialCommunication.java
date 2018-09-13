@@ -119,9 +119,9 @@ public class JavaSerialCommunication
     	try {
     		char h = 'h';
 			out1.write(h);
-			out1.flush();
+			// out1.flush(); //No need for this .
 			System.out.println("Done");
-			port1.close();
+			port3.close();
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
